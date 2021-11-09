@@ -1,5 +1,11 @@
 {
   "env": {
-    "value": "localhost"
+    "value": "development"
+  },
+  "firebase": {
+    "projectId": "mss-applications",
+    "databaseURL": "https://mss-applications.firebaseio.com",
+    "storageBucket": "mss-applications.appspot.com",
+    "locationId": "us-central"
   }
 }

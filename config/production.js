@@ -8,18 +8,20 @@ module.exports = {
    * More info: https://nodemailer.com
    */
   email: {
-    from: '<insert your email here>',
-    host: null,
+    from: 'mssit@m-s-s.com',
+    host: 'mail.m-s-s.com',
+    port: 1200,
+    secure: false,    
     auth: {
-      user: null,
-      pass: null,
+      user: 'mssit@m-s-s.com',
+      pass: 'InfoTech4921%',
     },
   },
 
   /**
    * Client URL used when sending emails.
    */
-  clientUrl: 'https://<insert project id here>.firebaseapp.com',
+  clientUrl: 'https://capabilities.mssdev.works',
 
 
   /**
